@@ -25,7 +25,7 @@ addButton.addEventListener('click', () => {
 
     const papeleraButton = document.createElement('button');
     papeleraButton.id = 'papelera';
-    papeleraButton.innerHTML = '<img src="img/papelera-de-reciclaje.png" alt="papelera">';
+    papeleraButton.innerHTML = '<img src="./tareas/img/papelera-de-reciclaje.png" alt="papelera">';
     
     // Agrega un evento clic al botón de papelera para eliminar la tarea
     papeleraButton.addEventListener('click', () => {
@@ -41,7 +41,7 @@ addButton.addEventListener('click', () => {
 
     const notaButton = document.createElement('button');
     notaButton.classList.add('nota'); // Agrega la clase "nota" al botón
-    notaButton.innerHTML = '<img src="img/nota.png" alt="nota">';
+    notaButton.innerHTML = '<img src="./tareas/img/nota.png" alt="nota">';
     
     //Agrega un evento clic al botón de notas para habilitar la edición del texto de la tarea
     notaButton.addEventListener('click', () => {

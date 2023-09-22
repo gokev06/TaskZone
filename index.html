@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TaskZone</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="./img/logo.png" class="logo">
+        <div class="derecha">
+            <label for="dropdown">Tareas:</label>
+            <select id="dropdown">
+                <!-- Las opciones se agregarán aquí desde el localStorage -->
+            </select>
+            <button id="mostrarForm">
+                <img src="./img/1491254405-plusaddmoredetail_82972 1 (1).png" alt="">
+                Agregar Proyecto
+            </button>
+            <button id="eliminar">Eliminar este Proyecto</button>
+            <div id="formAgregar">
+                <label for="nuevaOpcion">Agregar nuevo Proyecto:</label>
+                <input type="text" id="nuevaOpcion">
+                <button id="agregar">Agregar</button>
+            </div>
+        </div>
+    </header>
+    <div id="contenido">
+        <!-- Aquí se mostrarán las tablas -->
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

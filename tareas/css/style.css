@@ -12,6 +12,10 @@ header img{
     width: 100px;
     height: 100px;
 }
+header a {
+    text-decoration: none;
+    color: black;
+}
 header{
  background-color: #81C9FA;
  width: 100%;
@@ -113,3 +117,87 @@ label{
     border: #7e7d7d 1px solid;
 
 }
+
+
+@media (max-width: 480px) {
+    header{
+        width: 100vw;
+        padding: 10px 50px;
+        height: 120px;
+        margin: 0;
+    }
+    header img{
+        margin-top: 0;
+        margin-left: 0;
+       padding: 0;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        margin: 0;
+    }
+    section{
+        margin: 0;
+        padding: 0;
+    }
+    .column {
+        margin: 0 20px 20px 20px;
+        padding: 20px;
+        width: 80vw;  
+    }
+    .task {
+        margin: 0;
+        margin-top: 20px;
+        width: 100%;
+        height: 100px;
+
+    }
+    .cajaEliminarEditar{
+        margin: 0;
+        margin-left: 48%;
+        width: 75%;
+    }
+}
+
+@media (max-width: 768px) {
+    header{
+        width: 100vw;
+        padding: 10px 50px;
+        height: 120px;
+        justify-content: space-around;
+    }
+    header img{
+        margin-top: 0;
+        margin-left: 0;
+       
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+    }
+    .column {
+        margin: 0 20px 20px 20px;
+        padding: 20px;
+        width: 80vw;  
+    }
+    .task {
+        margin: 0;
+        margin-top: 20px;
+        width: 100%;
+        height: 100px;
+
+    }
+    .cajaEliminarEditar{
+        margin: 0;
+        margin-left: 40%;
+        width: 75%;
+    }
+}
+
+
+
+
+
+

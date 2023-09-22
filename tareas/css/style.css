@@ -1,12 +1,16 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Serif:wght@700&family=Open+Sans:wght@400;500&family=Oregano&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+font-family: 'Oregano';
 }
 #hea{
     display: flex;
 }
-header img{
+header .logo{
     margin-top: 20px;
     margin-left: 80px;
     width: 100px;
@@ -22,6 +26,10 @@ header{
  height: 130px;
  display: flex;
  justify-content: space-between;
+ align-items: center;
+}
+header .derecha h1{
+    margin-right: 80px;
 }
 section{
     display: flex;
@@ -90,6 +98,7 @@ section{
 }
 .tex{
     text-align: left;
+    font-size: 25px;
 }
 img{
     width: 100%;

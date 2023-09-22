@@ -9,6 +9,7 @@ procesoColumn.addEventListener('dragover', e => {
     }
 });
 
+
 finalizadasColumn.addEventListener('dragover', e => {
     e.preventDefault();
     const task = document.querySelector('.dragging');

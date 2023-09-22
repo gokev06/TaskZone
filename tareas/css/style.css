@@ -1,0 +1,320 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#hea{
+    display: flex;
+}
+header img{
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 100px;
+    height: 100px;
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+header{
+ background-color: #81C9FA;
+ width: 100%;
+ height: 130px;
+ display: flex;
+ padding: 10px 50px ;
+ justify-content: space-between;
+ align-items: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+}
+.column {
+    flex: 1;
+    padding: 20px;
+    margin: 50px 20px 20px;
+    background-color: #81C9FA;
+    border-radius: 10px;
+    text-align: center;
+    width: 370px;
+}
+#agregarTarea{
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 15px ;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 5px;
+    margin: 8px 0px 0px 0px;
+}
+#añadir{
+    width: 35px;
+    height: 35px;
+}
+#agregarTarea:hover{
+    background-color: #c3e7ffd8;
+    border-radius: 5%;
+}
+#cajatareas{
+    height: 370px;
+}
+.task {
+    background-color: #ddedff;
+    padding: 10px;
+    margin: 30px;
+    cursor: pointer;
+    width: 278px;
+    height: 100px;
+    border-radius: 3%;
+}
+.task .status-bar {
+    height: 10px;
+    width: 100%;
+    margin: 5px 0px 5px;
+}
+.task.programada .status-bar {
+    background-color: red; /* Rojo para "Programada" */
+}
+
+.task.en-proceso .status-bar {
+    background-color: yellow; /* Amarillo para "En Proceso" */
+}
+
+.task.finalizada .status-bar {
+    background-color: green; /* Verde para "Finalizada" */
+}
+.tex{
+    text-align: left;
+}
+img{
+    width: 100%;
+    height: 25px;
+}
+button{
+    border: none;
+    background-color: transparent;
+}
+.cajaEliminarEditar{
+    margin: 7px 130px 0px;
+    width: 75%;
+}
+.nota{
+    cursor: pointer;
+    margin: 0px 8px;
+
+}
+#papelera:hover{
+    background-color: rgb(245, 113, 113);
+    cursor: pointer;
+}
+
+label{
+    border: #7e7d7d 1px solid;
+
+}
+
+@media (max-width: 1300px){
+    header{
+        width: 100vw;
+        padding: 10px 50px ;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header img{
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .container{
+        padding-top: 30px;
+    }
+
+    .column{
+        margin: 0px 20px 20px 20px;
+        padding: 20px;
+    }
+
+    .task{
+        margin: 0;
+        margin-top: 20px;
+        width: 100%;
+        height: 100px;
+    }
+
+    .cajaEliminarEditar{
+        margin: 0;
+        margin-left: 40%;
+        width: 75%;
+    }
+}
+
+@media (max-width: 1279px){
+    header{
+        width: 100vw;
+        padding: 10px 50px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header img{
+        margin-top: 0;
+        margin-left: 0;
+
+    }
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+    .column{
+        margin: 0px 20px 20px 20px;
+        padding: 20px;
+        width: 80vw;
+    }
+
+    .task{
+        margin: 0;
+        margin-top: 20px;
+        width: 100%;
+        height: 100px;
+    }
+
+    .cajaEliminarEditar{
+        margin: 0;
+        margin-left: 40%;
+        width: 75%;
+    }
+}
+
+@media (max-width: 920px){
+     header{
+        width: 100vw;
+        padding: 10px 50px;
+        justify-content: space-around;
+        align-items: center;
+     }
+
+     header img{
+        margin-top: 0;
+        margin-left: 0;
+     }
+    
+     .container {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+     }
+
+    .column{
+        margin: 0px 20px 20px 20px;
+        padding: 20px;
+        width: 80vw;
+    }
+
+    .task {
+        margin: 0;
+        margin-top: 20px;
+        width: 100%;
+        height: 100px;
+     }
+
+    .cajaEliminarEditar{
+        margin: 0;
+        margin-left: 40%;
+        width: 75%;
+    }
+}
+
+@media (max-width: 768px) {
+    header{
+        width: 100vw;
+        padding: 10px 50px;
+        height: 120px;
+        justify-content: space-around;
+    }
+    header img{
+        margin-top: 0;
+        margin-left: 0;
+       
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+    }
+    .column {
+        margin: 0 20px 20px 20px;
+        padding: 20px;
+        width: 80vw;  
+    }
+    .task {
+        margin: 0;
+        margin-top: 20px;
+        width: 100%;
+        height: 100px;
+
+    }
+    .cajaEliminarEditar{
+        margin: 0;
+        margin-left: 40%;
+        width: 75%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    header{
+        width: 100vw;
+        padding: 10px 50px;
+        height: 120px;
+        margin: 0;
+    }
+    header img{
+        margin-top: 0;
+        margin-left: 0;
+       padding: 0;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        margin: 0;
+    }
+    section{
+        margin: 0;
+        padding: 0;
+    }
+    .column {
+        margin: 0 20px 20px 20px;
+        padding: 20px;
+        width: 80vw;  
+    }
+    .task {
+        margin: 0;
+        margin-top: 20px;
+        width: 100%;
+        height: 100px;
+
+    }
+    .cajaEliminarEditar{
+        margin: 0;
+        margin-left: 48%;
+        width: 75%;
+    }
+}
+
+
+
+
+
+
